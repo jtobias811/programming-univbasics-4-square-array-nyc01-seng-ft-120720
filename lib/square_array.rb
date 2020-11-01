@@ -3,5 +3,6 @@ def square_array(array)
   new_array = []
   while counter < array.length do |value|
     new_array.push(array[value * value])
+  end
 
 end
